@@ -1,0 +1,141 @@
+sun.sun: {}
+vacuum.robot:
+  friendly_name: 扫地机器人
+switch.yt_light:
+  friendly_name: 阳台灯
+switch.xw_light:
+  friendly_name: 小卫灯
+switch.sf_light:
+  friendly_name: 书房灯
+switch.kt_kt:
+  friendly_name: 客厅空调
+switch.sw_tv:
+  friendly_name: 客厅电视
+switch.kt_light3:
+  friendly_name: 客厅吊顶灯3
+  homebridge_hidden: true
+switch.kt_light2:
+  friendly_name: 客厅吊顶氛围灯
+switch.kt_light1:
+  friendly_name: 客厅吊顶白灯
+switch.kt_light:
+  friendly_name: 客厅吊灯全控
+switch.dw_light:
+  friendly_name: 主卫灯
+switch.ctld_light:
+  friendly_name: 餐厅落地灯
+switch.ct_light:
+  friendly_name: 餐厅灯
+switch.cf_light:
+  friendly_name: 厨房灯
+switch.led_hallway:
+  friendly_name: 走廊灯
+switch.led_test:
+  friendly_name: 卧室灯
+fan.xiaomi_air_purifier_2:
+  friendly_name: 空气净化器
+media_player.tv:
+  friendly_name: 客厅电视
+sensor.heweather_pm25:
+  homebridge_hidden: true
+automation.zoulangkai:
+  friendly_name: 夜间走廊开
+automation.zoulangguan:
+  friendly_name: 夜间走廊自动关
+device_tracker.24_f0_94_94_ba_ea:
+  friendly_name: iphone6s
+device_tracker.f4_60_e2_9e_75_0e:
+  friendly_name: Mix2s
+  hidden: true
+sensor.traffic_home_to_office:
+  friendly_name: 到公司时间
+sensor.traffic_office_to_home:
+  friendly_name: 到家时间
+device_tracker.52e801a1:
+  friendly_name: 我
+device_tracker.mix2_xiaomishouji:
+  friendly_name: 老婆的Mix2
+device_tracker.00_0c_29_2a_5e_7a:
+  friendly_name: debian9
+  homebridge_hidden: true
+device_tracker.00_0c_29_81_eb_bb:
+  friendly_name: centos7
+  homebridge_hidden: true
+device_tracker.00_e0_4c_2c_c8_93:
+  friendly_name: NAS
+device_tracker.2c_30_33_fc_6f_29:
+  friendly_name: R6300v2
+device_tracker.4c_ed_fb_45_91_5d:
+  friendly_name: ESXI
+  homebridge_hidden: true
+device_tracker.78_11_dc_42_d0_e7:
+  friendly_name: XIAOMI Electronics,CO.,LTD
+  hidden: true
+  homebridge_hidden: true
+device_tracker.00_ec_0a_80_95_4e:
+  hidden: true
+  homebridge_hidden: true
+device_tracker.2c_3a_e8_3c_19_81:
+  hidden: true
+  homebridge_hidden: true
+device_tracker.2c_b2_1a_5c_ce_2c:
+  hidden: true
+  homebridge_hidden: true
+device_tracker.34_ce_00_e8_38_6b:
+  hidden: true
+  homebridge_hidden: true
+device_tracker.68_ab_1e_12_93_b0:
+  hidden: true
+  homebridge_hidden: true
+device_tracker.78_31_c1_c2_b8_16:
+  hidden: true
+  homebridge_hidden: true
+device_tracker.7c_49_eb_18_2d_83:
+  hidden: true
+  homebridge_hidden: true
+device_tracker.90_18_7c_8b_f4_95:
+  hidden: true
+  homebridge_hidden: true
+device_tracker.esp_08b48c:
+  hidden: true
+  homebridge_hidden: true
+device_tracker.home_pc1600x:
+  homebridge_hidden: true
+device_tracker.home_pc6600k:
+  homebridge_hidden: true
+device_tracker.miaisoundbox:
+  hidden: true
+  homebridge_hidden: true
+device_tracker.qca4002:
+  hidden: true
+  homebridge_hidden: true
+device_tracker.rmproplus_58_74_50:
+  hidden: true
+  homebridge_hidden: true
+device_tracker.tmall_genie:
+  hidden: true
+  homebridge_hidden: true
+device_tracker.b0_41_1d_3e_4d_52:
+  hidden: true
+  homebridge_hidden: true
+device_tracker.b8_27_eb_a2_9f_ea:
+  hidden: true
+  homebridge_hidden: true
+device_tracker.bc_83_85_1a_f4_e2:
+  hidden: true
+  homebridge_hidden: true
+device_tracker.houpengdeiphone:
+  hidden: true
+  homebridge_hidden: true
+device_tracker.lumi_gateway_v3_miio57530600:
+  hidden: true
+  homebridge_hidden: true
+device_tracker.sonoff3:
+  hidden: true
+  homebridge_hidden: true
+device_tracker.zhimi_airpurifier_m1_miio61070131:
+  hidden: true
+  homebridge_hidden: true
+device_tracker.zimi_powerstrip_v2_miio46347541:
+  hidden: true
+  homebridge_hidden: true

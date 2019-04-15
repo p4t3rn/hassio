@@ -1,0 +1,287 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.kodi_raspberrypi_local",
+                "name": null,
+                "platform": "kodi",
+                "unique_id": "6599feb5-9f71-4ef8-ada1-9eeb32c2a661"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.humidity_158d00016ffa41",
+                "name": "\u6e7f\u5ea6",
+                "platform": "xiaomi_aqara",
+                "unique_id": "humidity158d00016ffa41"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.illumination_34ce008be535",
+                "name": "\u4eae\u5ea6",
+                "platform": "xiaomi_aqara",
+                "unique_id": "illumination34ce008be535"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.temperature_158d00016ffa41",
+                "name": "\u6e29\u5ea6",
+                "platform": "xiaomi_aqara",
+                "unique_id": "temperature158d00016ffa41"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "binary_sensor.door_window_sensor_158d00016fdb4c",
+                "name": "\u95e8",
+                "platform": "xiaomi_aqara",
+                "unique_id": "status158d00016fdb4c"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "binary_sensor.door_window_sensor_158d000120c802",
+                "name": "\u7a97",
+                "platform": "xiaomi_aqara",
+                "unique_id": "status158d000120c802"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "binary_sensor.switch_158d000183cbff",
+                "name": "\u5e8a\u5934\u5f00\u5173",
+                "platform": "xiaomi_aqara",
+                "unique_id": "status158d000183cbff"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "binary_sensor.motion_sensor_158d0001db0ae8",
+                "name": "\u4eba\u4f53\u4f20\u611f\u5668",
+                "platform": "xiaomi_aqara",
+                "unique_id": "status158d0001db0ae8"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "switch.plug_158d0001db17e9",
+                "name": "\u52a0\u6e7f\u5668",
+                "platform": "xiaomi_aqara",
+                "unique_id": "status158d0001db17e9"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "switch.plug_158d0001deaab7",
+                "name": "\u53f0\u706f",
+                "platform": "xiaomi_aqara",
+                "unique_id": "status158d0001deaab7"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "light.gateway_light_34ce008be535",
+                "name": "\u7f51\u5173\u706f",
+                "platform": "xiaomi_aqara",
+                "unique_id": "rgb34ce008be535"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "person.hai_you_jun",
+                "name": null,
+                "platform": "person",
+                "unique_id": "d78c00b511714b9ba8557a52ef9dd5bd"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "fan.xiaomi_air_purifier_2",
+                "name": null,
+                "platform": "xiaomi_miio",
+                "unique_id": "zhimi.airpurifier.m1-34:CE:00:A0:A3:B1"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": "afaaeeb0f1ea437ba52b4910e04015f4",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac3100_packets_received",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:77025143-cb4a-40e4-a53a-d455c715f51e_packets_received"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": "e06b952fb80741828f7a70d9fcd4d68a",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac3100_packets_sec_received",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:77025143-cb4a-40e4-a53a-d455c715f51e_packets/sec_received"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": "4e14072364074c3fa362cec1cc834ee9",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac3100_kbyte_sec_sent",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:77025143-cb4a-40e4-a53a-d455c715f51e_kbyte/sec_sent"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": "0f8b7cbd211c49e9905967a9bb9af22d",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac3100_kbyte_sec_received",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:77025143-cb4a-40e4-a53a-d455c715f51e_kbyte/sec_received"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": "050ed291377f458d8d926a1a93acfbe7",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac3100_packets_sec_sent",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:77025143-cb4a-40e4-a53a-d455c715f51e_packets/sec_sent"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": "2302ffe1c22340e9b5957ed824889921",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac3100_bytes_sent",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:77025143-cb4a-40e4-a53a-d455c715f51e_bytes_sent"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": "daec7f00872a489e9bd1d22cb64f186c",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac3100_packets_sent",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:77025143-cb4a-40e4-a53a-d455c715f51e_packets_sent"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": "2d53535cac744453874fb92e35949b77",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac3100_bytes_received",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:77025143-cb4a-40e4-a53a-d455c715f51e_bytes_received"
+            },
+            {
+                "config_entry_id": "5875a664a520401a9d5d0936a0892eb7",
+                "device_id": "0dca3b0bbcf1453b8c3f6ffc23ec4420",
+                "disabled_by": null,
+                "entity_id": "sensor.chen_qing_cheng_de_iphone_battery_state",
+                "name": null,
+                "platform": "ios",
+                "unique_id": "state__iphone"
+            },
+            {
+                "config_entry_id": "5875a664a520401a9d5d0936a0892eb7",
+                "device_id": "0dca3b0bbcf1453b8c3f6ffc23ec4420",
+                "disabled_by": null,
+                "entity_id": "sensor.chen_qing_cheng_de_iphone_battery_level",
+                "name": null,
+                "platform": "ios",
+                "unique_id": "level__iphone"
+            },
+            {
+                "config_entry_id": "bb5609672b53442ab43638cbfe0620a0",
+                "device_id": "13e5fe32831943e696562160383e7143",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac3100_kbyte_sec_received_2",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:7310bce4-a5fb-4863-adc0-5f1799b34c77_kbyte/sec_received"
+            },
+            {
+                "config_entry_id": "bb5609672b53442ab43638cbfe0620a0",
+                "device_id": "1cf9a3b2146342f59de032ec2d117b97",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac3100_kbyte_sec_sent_2",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:7310bce4-a5fb-4863-adc0-5f1799b34c77_kbyte/sec_sent"
+            },
+            {
+                "config_entry_id": "bb5609672b53442ab43638cbfe0620a0",
+                "device_id": "c7f49a4dce964e2baa9b194efbb723a9",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac3100_packets_sent_2",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:7310bce4-a5fb-4863-adc0-5f1799b34c77_packets_sent"
+            },
+            {
+                "config_entry_id": "bb5609672b53442ab43638cbfe0620a0",
+                "device_id": "f3ea34870dfc4f7eb8d1ab2e2a632ed4",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac3100_bytes_received_2",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:7310bce4-a5fb-4863-adc0-5f1799b34c77_bytes_received"
+            },
+            {
+                "config_entry_id": "bb5609672b53442ab43638cbfe0620a0",
+                "device_id": "fb3802e7aa3942c6a2c0c11033afbe06",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac3100_packets_sec_received_2",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:7310bce4-a5fb-4863-adc0-5f1799b34c77_packets/sec_received"
+            },
+            {
+                "config_entry_id": "bb5609672b53442ab43638cbfe0620a0",
+                "device_id": "fcc0bc0a63c54001b5e38cd4e61e398d",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac3100_bytes_sent_2",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:7310bce4-a5fb-4863-adc0-5f1799b34c77_bytes_sent"
+            },
+            {
+                "config_entry_id": "bb5609672b53442ab43638cbfe0620a0",
+                "device_id": "271e9bd50090444aab45667489ad379e",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac3100_packets_received_2",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:7310bce4-a5fb-4863-adc0-5f1799b34c77_packets_received"
+            },
+            {
+                "config_entry_id": "bb5609672b53442ab43638cbfe0620a0",
+                "device_id": "dd4770af25144da4aed4b470f2bad2f4",
+                "disabled_by": null,
+                "entity_id": "sensor.rt_ac3100_packets_sec_sent_2",
+                "name": null,
+                "platform": "upnp",
+                "unique_id": "uuid:7310bce4-a5fb-4863-adc0-5f1799b34c77_packets/sec_sent"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

@@ -1,0 +1,361 @@
+{
+    "data": {
+        "devices": [
+            {
+                "area_id": null,
+                "config_entries": [],
+                "connections": [
+                    [
+                        "upnp",
+                        "uuid:77025143-cb4a-40e4-a53a-d455c715f51e"
+                    ]
+                ],
+                "hub_device_id": null,
+                "id": "b13b1050c68b4defa4f5163fcf1a70ca",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:77025143-cb4a-40e4-a53a-d455c715f51e"
+                    ]
+                ],
+                "manufacturer": "ASUSTek",
+                "model": null,
+                "name": "RT-AC3100",
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [],
+                "connections": [],
+                "hub_device_id": "b13b1050c68b4defa4f5163fcf1a70ca",
+                "id": "afaaeeb0f1ea437ba52b4910e04015f4",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:77025143-cb4a-40e4-a53a-d455c715f51e_packets_received"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC3100 packets received",
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [],
+                "connections": [],
+                "hub_device_id": "b13b1050c68b4defa4f5163fcf1a70ca",
+                "id": "e06b952fb80741828f7a70d9fcd4d68a",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:77025143-cb4a-40e4-a53a-d455c715f51e_packets/sec_received"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC3100 packets/sec received",
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [],
+                "connections": [],
+                "hub_device_id": "b13b1050c68b4defa4f5163fcf1a70ca",
+                "id": "4e14072364074c3fa362cec1cc834ee9",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:77025143-cb4a-40e4-a53a-d455c715f51e_kbyte/sec_sent"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC3100 kbyte/sec sent",
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [],
+                "connections": [],
+                "hub_device_id": "b13b1050c68b4defa4f5163fcf1a70ca",
+                "id": "0f8b7cbd211c49e9905967a9bb9af22d",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:77025143-cb4a-40e4-a53a-d455c715f51e_kbyte/sec_received"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC3100 kbyte/sec received",
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [],
+                "connections": [],
+                "hub_device_id": "b13b1050c68b4defa4f5163fcf1a70ca",
+                "id": "050ed291377f458d8d926a1a93acfbe7",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:77025143-cb4a-40e4-a53a-d455c715f51e_packets/sec_sent"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC3100 packets/sec sent",
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [],
+                "connections": [],
+                "hub_device_id": "b13b1050c68b4defa4f5163fcf1a70ca",
+                "id": "2302ffe1c22340e9b5957ed824889921",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:77025143-cb4a-40e4-a53a-d455c715f51e_bytes_sent"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC3100 bytes sent",
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [],
+                "connections": [],
+                "hub_device_id": "b13b1050c68b4defa4f5163fcf1a70ca",
+                "id": "daec7f00872a489e9bd1d22cb64f186c",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:77025143-cb4a-40e4-a53a-d455c715f51e_packets_sent"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC3100 packets sent",
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [],
+                "connections": [],
+                "hub_device_id": "b13b1050c68b4defa4f5163fcf1a70ca",
+                "id": "2d53535cac744453874fb92e35949b77",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:77025143-cb4a-40e4-a53a-d455c715f51e_bytes_received"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC3100 bytes received",
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "5875a664a520401a9d5d0936a0892eb7"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "0dca3b0bbcf1453b8c3f6ffc23ec4420",
+                "identifiers": [
+                    [
+                        "ios",
+                        "CB2A4FA8-7FB3-4908-A9A2-41357556B2DC"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone 6s",
+                "name": "\u6c88\u9752\u57ce\u7684 iPhone",
+                "sw_version": "12.1.4"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "bb5609672b53442ab43638cbfe0620a0"
+                ],
+                "connections": [
+                    [
+                        "upnp",
+                        "uuid:7310bce4-a5fb-4863-adc0-5f1799b34c77"
+                    ]
+                ],
+                "hub_device_id": null,
+                "id": "13155c87cf2f453a94781bbe546c8436",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:7310bce4-a5fb-4863-adc0-5f1799b34c77"
+                    ]
+                ],
+                "manufacturer": "ASUSTek",
+                "model": null,
+                "name": "RT-AC3100",
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "bb5609672b53442ab43638cbfe0620a0"
+                ],
+                "connections": [],
+                "hub_device_id": "13155c87cf2f453a94781bbe546c8436",
+                "id": "13e5fe32831943e696562160383e7143",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:7310bce4-a5fb-4863-adc0-5f1799b34c77_kbyte/sec_received"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC3100 kbyte/sec received",
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "bb5609672b53442ab43638cbfe0620a0"
+                ],
+                "connections": [],
+                "hub_device_id": "13155c87cf2f453a94781bbe546c8436",
+                "id": "1cf9a3b2146342f59de032ec2d117b97",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:7310bce4-a5fb-4863-adc0-5f1799b34c77_kbyte/sec_sent"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC3100 kbyte/sec sent",
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "bb5609672b53442ab43638cbfe0620a0"
+                ],
+                "connections": [],
+                "hub_device_id": "13155c87cf2f453a94781bbe546c8436",
+                "id": "c7f49a4dce964e2baa9b194efbb723a9",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:7310bce4-a5fb-4863-adc0-5f1799b34c77_packets_sent"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC3100 packets sent",
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "bb5609672b53442ab43638cbfe0620a0"
+                ],
+                "connections": [],
+                "hub_device_id": "13155c87cf2f453a94781bbe546c8436",
+                "id": "f3ea34870dfc4f7eb8d1ab2e2a632ed4",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:7310bce4-a5fb-4863-adc0-5f1799b34c77_bytes_received"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC3100 bytes received",
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "bb5609672b53442ab43638cbfe0620a0"
+                ],
+                "connections": [],
+                "hub_device_id": "13155c87cf2f453a94781bbe546c8436",
+                "id": "fb3802e7aa3942c6a2c0c11033afbe06",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:7310bce4-a5fb-4863-adc0-5f1799b34c77_packets/sec_received"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC3100 packets/sec received",
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "bb5609672b53442ab43638cbfe0620a0"
+                ],
+                "connections": [],
+                "hub_device_id": "13155c87cf2f453a94781bbe546c8436",
+                "id": "fcc0bc0a63c54001b5e38cd4e61e398d",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:7310bce4-a5fb-4863-adc0-5f1799b34c77_bytes_sent"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC3100 bytes sent",
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "bb5609672b53442ab43638cbfe0620a0"
+                ],
+                "connections": [],
+                "hub_device_id": "13155c87cf2f453a94781bbe546c8436",
+                "id": "271e9bd50090444aab45667489ad379e",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:7310bce4-a5fb-4863-adc0-5f1799b34c77_packets_received"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC3100 packets received",
+                "sw_version": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "bb5609672b53442ab43638cbfe0620a0"
+                ],
+                "connections": [],
+                "hub_device_id": "13155c87cf2f453a94781bbe546c8436",
+                "id": "dd4770af25144da4aed4b470f2bad2f4",
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:7310bce4-a5fb-4863-adc0-5f1799b34c77_packets/sec_sent"
+                    ]
+                ],
+                "manufacturer": null,
+                "model": null,
+                "name": "RT-AC3100 packets/sec sent",
+                "sw_version": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

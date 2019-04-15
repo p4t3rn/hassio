@@ -1,0 +1,1035 @@
+{
+    "data": [
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "temp_24g": "49",
+                    "temp_5g": "53.5",
+                    "temp_cpu": "75"
+                },
+                "context": {
+                    "id": "1c366aa283d9428dac9553f40057d90b",
+                    "user_id": "c0aefe8ac6094621917a20f6929bc809"
+                },
+                "entity_id": "input_number.merlin_temp",
+                "last_changed": "2019-04-15T00:43:00.351224+00:00",
+                "last_updated": "2019-04-15T00:43:00.351224+00:00",
+                "state": "75"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\u5367\u5ba4\u706f"
+                },
+                "context": {
+                    "id": "dd1c78a8082345bd97a7ca7069ff2218",
+                    "user_id": null
+                },
+                "entity_id": "switch.led_test",
+                "last_changed": "2019-04-13T19:27:00.908378+00:00",
+                "last_updated": "2019-04-13T19:27:00.908378+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\u8d70\u5eca\u706f"
+                },
+                "context": {
+                    "id": "8c6f9ed889d7449ba3c5059588a6bb99",
+                    "user_id": null
+                },
+                "entity_id": "switch.led_hallway",
+                "last_changed": "2019-04-14T14:44:51.569108+00:00",
+                "last_updated": "2019-04-14T14:44:51.569108+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "7c 49 eb 18 2d 83",
+                    "gps_accuracy": 0,
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "latitude": 39.9357587057,
+                    "longitude": 119.5364117453,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "65eca212283e4e01bcc251a0f0a42aab",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.7c_49_eb_18_2d_83",
+                "last_changed": "2019-04-13T19:27:02.815203+00:00",
+                "last_updated": "2019-04-13T19:27:02.935807+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "debian9",
+                    "gps_accuracy": 0,
+                    "homebridge_hidden": true,
+                    "latitude": 39.9357587057,
+                    "longitude": 119.5364117453,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "9ec3e13b29d04cceb81bcc03b21ede8a",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.00_0c_29_2a_5e_7a",
+                "last_changed": "2019-04-13T19:27:02.815292+00:00",
+                "last_updated": "2019-04-13T19:27:02.935343+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "2c b2 1a 5c ce 2c",
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "source_type": null
+                },
+                "context": {
+                    "id": "ed1fadde9c714635a4dccd8775df98ca",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.2c_b2_1a_5c_ce_2c",
+                "last_changed": "2019-04-13T19:27:02.815390+00:00",
+                "last_updated": "2019-04-13T19:27:02.815390+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "XIAOMI Electronics,CO.,LTD",
+                    "gps_accuracy": 0,
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "latitude": 39.9357587057,
+                    "longitude": 119.5364117453,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "f2bc1c2b6ab242c1ba65d2daf27ced79",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.78_11_dc_42_d0_e7",
+                "last_changed": "2019-04-13T19:27:02.815472+00:00",
+                "last_updated": "2019-04-13T19:27:02.930276+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "b8 27 eb a2 9f ea",
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "172ed43cd8dc4ad1a5626de389fb1d64",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.b8_27_eb_a2_9f_ea",
+                "last_changed": "2019-04-13T19:27:02.815548+00:00",
+                "last_updated": "2019-04-13T19:27:02.815548+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Mix2s",
+                    "hidden": true,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "62d01eda265247acb422e9904f6ef84e",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.f4_60_e2_9e_75_0e",
+                "last_changed": "2019-04-15T00:10:25.001128+00:00",
+                "last_updated": "2019-04-15T00:10:25.001128+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "68 ab 1e 12 93 b0",
+                    "gps_accuracy": 0,
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "latitude": 39.9357587057,
+                    "longitude": 119.5364117453,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "55adbc970d3e4a0186e3b357fccedde5",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.68_ab_1e_12_93_b0",
+                "last_changed": "2019-04-14T06:58:16.124982+00:00",
+                "last_updated": "2019-04-14T06:58:16.124982+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "2c 3a e8 3c 19 81",
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "3658c431363f4092bc872b9cca3f5bbe",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.2c_3a_e8_3c_19_81",
+                "last_changed": "2019-04-13T19:27:02.815903+00:00",
+                "last_updated": "2019-04-13T19:27:02.815903+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "iphone6s",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "f932f549643544f8b268beaea5a0c844",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.24_f0_94_94_ba_ea",
+                "last_changed": "2019-04-13T19:27:02.815976+00:00",
+                "last_updated": "2019-04-13T19:27:02.815976+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "QCA4002",
+                    "gps_accuracy": 0,
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "latitude": 39.9357587057,
+                    "longitude": 119.5364117453,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "4e4e531cdd7a439ea802fc3ca4fbb07c",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.qca4002",
+                "last_changed": "2019-04-13T19:27:02.816053+00:00",
+                "last_updated": "2019-04-13T19:27:02.933195+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "RMPROPLUS-58-74-50",
+                    "gps_accuracy": 0,
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "latitude": 39.9357587057,
+                    "longitude": 119.5364117453,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "043c8aa8fa9b404fa4799bb6a6f3b9ee",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.rmproplus_58_74_50",
+                "last_changed": "2019-04-13T19:27:02.816128+00:00",
+                "last_updated": "2019-04-13T19:27:02.933457+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "zhimi-airpurifier-m1 miio61070131",
+                    "gps_accuracy": 0,
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "latitude": 39.9357587057,
+                    "longitude": 119.5364117453,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "5fecdc9f3cbf4c9ba4384f59d26adead",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.zhimi_airpurifier_m1_miio61070131",
+                "last_changed": "2019-04-13T19:27:02.816231+00:00",
+                "last_updated": "2019-04-13T19:27:02.932109+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "zimi-powerstrip-v2 miio46347541",
+                    "gps_accuracy": 0,
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "latitude": 39.9357587057,
+                    "longitude": 119.5364117453,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "781132c2c58848c0a65a9ae59ea76242",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.zimi_powerstrip_v2_miio46347541",
+                "last_changed": "2019-04-13T19:27:02.816307+00:00",
+                "last_updated": "2019-04-13T19:27:02.932403+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "lumi-gateway-v3 miio57530600",
+                    "gps_accuracy": 0,
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "latitude": 39.9357587057,
+                    "longitude": 119.5364117453,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "e3e92a84d1dd4e90999855ce9d77a390",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.lumi_gateway_v3_miio57530600",
+                "last_changed": "2019-04-13T19:27:02.816380+00:00",
+                "last_updated": "2019-04-13T19:27:02.932671+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Tmall-Genie",
+                    "gps_accuracy": 0,
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "latitude": 39.9357587057,
+                    "longitude": 119.5364117453,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "fb82535372b24d9e956f3f9c3ff54d9f",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.tmall_genie",
+                "last_changed": "2019-04-13T19:27:02.816451+00:00",
+                "last_updated": "2019-04-13T19:27:02.931381+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "MiAiSoundbox",
+                    "gps_accuracy": 0,
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "latitude": 39.9357587057,
+                    "longitude": 119.5364117453,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "38d853530be046cbac6297e3b59abda5",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.miaisoundbox",
+                "last_changed": "2019-04-13T19:27:02.816523+00:00",
+                "last_updated": "2019-04-13T19:27:02.933714+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Home-PC1600X",
+                    "homebridge_hidden": true,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "57d1969d144e4fbe8b4dd0119b36a7d8",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.home_pc1600x",
+                "last_changed": "2019-04-14T15:41:00.004775+00:00",
+                "last_updated": "2019-04-14T15:41:00.004775+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "centos7",
+                    "gps_accuracy": 0,
+                    "homebridge_hidden": true,
+                    "latitude": 39.9357587057,
+                    "longitude": 119.5364117453,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "d586cb9ca4a74b2282a5abc9edd80207",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.00_0c_29_81_eb_bb",
+                "last_changed": "2019-04-13T19:27:02.816665+00:00",
+                "last_updated": "2019-04-13T19:27:02.935602+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "ESXI",
+                    "gps_accuracy": 0,
+                    "homebridge_hidden": true,
+                    "latitude": 39.9357587057,
+                    "longitude": 119.5364117453,
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "41f1034dcfff43ccbce647497acb2131",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.4c_ed_fb_45_91_5d",
+                "last_changed": "2019-04-13T19:27:02.816739+00:00",
+                "last_updated": "2019-04-13T19:27:02.816739+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "R6300v2",
+                    "gps_accuracy": 0,
+                    "latitude": 39.9357587057,
+                    "longitude": 119.5364117453,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "018bd192ccc84415b6edcab62059c2c0",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.2c_30_33_fc_6f_29",
+                "last_changed": "2019-04-13T19:27:02.816813+00:00",
+                "last_updated": "2019-04-13T19:27:02.934766+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "sonoff3",
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "a82e590a34d342699e881eb45cf8f8eb",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.sonoff3",
+                "last_changed": "2019-04-13T19:27:02.816889+00:00",
+                "last_updated": "2019-04-13T19:27:02.816889+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "b0 41 1d 3e 4d 52",
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "88f92ba3732240dbb8d9b3b968d2bb58",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.b0_41_1d_3e_4d_52",
+                "last_changed": "2019-04-14T17:14:35.001386+00:00",
+                "last_updated": "2019-04-14T17:14:35.001386+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "iPadmini",
+                    "gps_accuracy": 0,
+                    "latitude": 39.9357587057,
+                    "longitude": 119.5364117453,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "799664b26c8e4d53b7297378ead5aedb",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.ipadmini",
+                "last_changed": "2019-04-13T19:27:02.817029+00:00",
+                "last_updated": "2019-04-13T19:27:02.934233+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "ipad-mini3",
+                    "gps_accuracy": 0,
+                    "latitude": 39.9357587057,
+                    "longitude": 119.5364117453,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "45f9773729f24b7f81d5e835ee0520d7",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.ipad_mini3",
+                "last_changed": "2019-04-13T19:27:02.817097+00:00",
+                "last_updated": "2019-04-13T19:27:02.931830+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "activity": "",
+                    "altitude": 0.0,
+                    "battery": 60.0,
+                    "direction": 0.0,
+                    "friendly_name": "\u6211",
+                    "gps_accuracy": 40.0,
+                    "latitude": 39.935552,
+                    "longitude": 119.536705,
+                    "provider": "network",
+                    "source_type": "gps",
+                    "speed": 0.0
+                },
+                "context": {
+                    "id": "430732e8cb4c4676b6a4c50c99e29c9a",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.52e801a1",
+                "last_changed": "2019-04-13T19:27:02.817171+00:00",
+                "last_updated": "2019-04-14T17:02:36.377321+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "iPhone",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "143e5ffbd4104ebe84b2b67a7f0db2b5",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.iphone",
+                "last_changed": "2019-04-13T19:27:02.817238+00:00",
+                "last_updated": "2019-04-13T19:27:02.817238+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\u8001\u5a46\u7684Mix2",
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "d8a9e030a57642c883278e64edb359ba",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.mix2_xiaomishouji",
+                "last_changed": "2019-04-14T09:35:45.001238+00:00",
+                "last_updated": "2019-04-14T09:35:45.001238+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "ESP 08B48C",
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "93b8952f5a734a8aae0d4a88f25accd0",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.esp_08b48c",
+                "last_changed": "2019-04-14T13:51:20.001452+00:00",
+                "last_updated": "2019-04-14T13:51:20.001452+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "00 ec 0a 80 95 4e",
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "71b45d98b5d446eaaaff276fe32fda07",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.00_ec_0a_80_95_4e",
+                "last_changed": "2019-04-13T19:27:02.817444+00:00",
+                "last_updated": "2019-04-13T19:27:02.817444+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "34 ce 00 e8 38 6b",
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "f920f2d794214087b0c3409cb299de4b",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.34_ce_00_e8_38_6b",
+                "last_changed": "2019-04-13T19:27:02.817519+00:00",
+                "last_updated": "2019-04-13T19:27:02.817519+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Home-PC6600K",
+                    "homebridge_hidden": true,
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "c5853bd0fd0049d0b9e2e4a335ca47e5",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.home_pc6600k",
+                "last_changed": "2019-04-13T19:27:02.817587+00:00",
+                "last_updated": "2019-04-13T19:27:02.817587+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "bc 83 85 1a f4 e2",
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "b7fc153ee8384a71ad85dc92fa31df8c",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.bc_83_85_1a_f4_e2",
+                "last_changed": "2019-04-14T14:34:55.001270+00:00",
+                "last_updated": "2019-04-14T14:34:55.001270+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "NAS",
+                    "gps_accuracy": 0,
+                    "latitude": 39.9357587057,
+                    "longitude": 119.5364117453,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "288ab9602142446da1eccdbb9fe21f93",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.00_e0_4c_2c_c8_93",
+                "last_changed": "2019-04-13T19:27:02.817730+00:00",
+                "last_updated": "2019-04-13T19:27:02.935072+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "90 18 7c 8b f4 95",
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "0adc5ca688f1480eaf130e579f26b16c",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.90_18_7c_8b_f4_95",
+                "last_changed": "2019-04-13T19:27:02.817804+00:00",
+                "last_updated": "2019-04-13T19:27:02.817804+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "78 31 c1 c2 b8 16",
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "525fc3b9519c49428613bca1ef63a1ca",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.78_31_c1_c2_b8_16",
+                "last_changed": "2019-04-13T19:27:02.817877+00:00",
+                "last_updated": "2019-04-13T19:27:02.817877+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "houpengdeiPhone",
+                    "hidden": true,
+                    "homebridge_hidden": true,
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "425028989efc4fd98deab3e16d3616c3",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.houpengdeiphone",
+                "last_changed": "2019-04-13T19:27:02.817949+00:00",
+                "last_updated": "2019-04-13T19:27:02.817949+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "lidiandpleWatch",
+                    "source_type": null
+                },
+                "context": {
+                    "id": "ba2113b1b24e44f1b5d017548540b0c6",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.lidiandplewatch",
+                "last_changed": "2019-04-13T19:27:02.818015+00:00",
+                "last_updated": "2019-04-13T19:27:02.818015+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "iPad",
+                    "gps_accuracy": 0,
+                    "latitude": 39.9357587057,
+                    "longitude": 119.5364117453,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "b8d72958b45e47198598e908f0b76649",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.ipad",
+                "last_changed": "2019-04-13T19:27:02.818084+00:00",
+                "last_updated": "2019-04-13T19:27:02.932932+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "38 f9 d3 38 cf de",
+                    "source_type": null
+                },
+                "context": {
+                    "id": "a57eb14f65cf42faa27ba1be4c64b17d",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.38_f9_d3_38_cf_de",
+                "last_changed": "2019-04-13T19:27:02.818153+00:00",
+                "last_updated": "2019-04-13T19:27:02.818153+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "HUAWEI P20 Pro-b1e656351e",
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "99e6ac12f6164080975bd017d7b72fb1",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.huawei_p20_pro_b1e656351e",
+                "last_changed": "2019-04-14T06:06:55.001670+00:00",
+                "last_updated": "2019-04-14T06:06:55.001670+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "ec 01 ee 06 3a 39",
+                    "source_type": null
+                },
+                "context": {
+                    "id": "6baa76a79c3440a49dad6acd26d52197",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.ec_01_ee_06_3a_39",
+                "last_changed": "2019-04-13T19:27:02.818294+00:00",
+                "last_updated": "2019-04-13T19:27:02.818294+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "cc 08 8d da e0 8e",
+                    "source_type": null
+                },
+                "context": {
+                    "id": "e4e05a5dad014ba28d662ec8b8fcd785",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.cc_08_8d_da_e0_8e",
+                "last_changed": "2019-04-13T19:27:02.818372+00:00",
+                "last_updated": "2019-04-13T19:27:02.818372+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "bc 60 a7 4e d4 4f",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "ec228b4fab6c460c9b2204fa32c634c1",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.bc_60_a7_4e_d4_4f",
+                "last_changed": "2019-04-13T19:27:02.818442+00:00",
+                "last_updated": "2019-04-13T19:27:02.818442+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "2c 57 31 4c 97 26",
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "18fa5541335d4e40b596da510f445202",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.2c_57_31_4c_97_26",
+                "last_changed": "2019-04-14T14:09:15.001340+00:00",
+                "last_updated": "2019-04-14T14:09:15.001340+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "iPhone-5",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "be10f8f9b8b7428d9e390aad93a89345",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.iphone_5",
+                "last_changed": "2019-04-13T19:27:02.818572+00:00",
+                "last_updated": "2019-04-13T19:27:02.818572+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "DAFANG",
+                    "gps_accuracy": 0,
+                    "latitude": 39.9357587057,
+                    "longitude": 119.5364117453,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "553d18312a03421e94614fd5aab0839d",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.dafang",
+                "last_changed": "2019-04-13T19:27:02.818638+00:00",
+                "last_updated": "2019-04-13T19:27:02.933968+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "34 ce 00 b4 35 e1",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "598e41ad8cad454faaaa2cfc0095e430",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.34_ce_00_b4_35_e1",
+                "last_changed": "2019-04-13T19:27:02.818704+00:00",
+                "last_updated": "2019-04-13T19:27:02.818704+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "b0 6e bf be 7c 3c",
+                    "source_type": null
+                },
+                "context": {
+                    "id": "a5905ee974c34f7c8ba8fcf067bb2c9f",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.b0_6e_bf_be_7c_3c",
+                "last_changed": "2019-04-13T19:27:02.818771+00:00",
+                "last_updated": "2019-04-13T19:27:02.818771+00:00",
+                "state": "not_home"
+            }
+        },
+        {
+            "last_seen": "2019-04-15T00:43:26.001399+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "sonoff2",
+                    "gps_accuracy": 0,
+                    "latitude": 39.9357587057,
+                    "longitude": 119.5364117453,
+                    "scanner": "AsusWrtDeviceScanner",
+                    "source_type": "router"
+                },
+                "context": {
+                    "id": "7563a41658fd4789ae8c49a9ee75e827",
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.sonoff2",
+                "last_changed": "2019-04-13T19:27:02.818838+00:00",
+                "last_updated": "2019-04-13T19:27:02.930579+00:00",
+                "state": "home"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

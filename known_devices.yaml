@@ -1,0 +1,392 @@
+
+7c_49_eb_18_2d_83:
+  hide_if_away: false
+  icon:
+  mac: 7C:49:EB:18:2D:83
+  name: 7c 49 eb 18 2d 83
+  picture:
+  track: true
+
+00_0c_29_2a_5e_7a:
+  hide_if_away: false
+  icon:
+  mac: 00:0C:29:2A:5E:7A
+  name: 00 0c 29 2a 5e 7a
+  picture:
+  track: true
+
+2c_b2_1a_5c_ce_2c:
+  hide_if_away: false
+  icon:
+  mac: 2C:B2:1A:5C:CE:2C
+  name: 2c b2 1a 5c ce 2c
+  picture:
+  track: true
+
+78_11_dc_42_d0_e7:
+  hide_if_away: false
+  icon:
+  mac: 78:11:DC:42:D0:E7
+  name: 78 11 dc 42 d0 e7
+  picture:
+  track: true
+
+b8_27_eb_a2_9f_ea:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:A2:9F:EA
+  name: b8 27 eb a2 9f ea
+  picture:
+  track: true
+
+f4_60_e2_9e_75_0e:
+  hide_if_away: false
+  icon:
+  mac: F4:60:E2:9E:75:0E
+  name: f4 60 e2 9e 75 0e
+  picture:
+  track: true
+
+68_ab_1e_12_93_b0:
+  hide_if_away: false
+  icon:
+  mac: 68:AB:1E:12:93:B0
+  name: 68 ab 1e 12 93 b0
+  picture:
+  track: true
+
+2c_3a_e8_3c_19_81:
+  hide_if_away: false
+  icon:
+  mac: 2C:3A:E8:3C:19:81
+  name: 2c 3a e8 3c 19 81
+  picture:
+  track: true
+
+24_f0_94_94_ba_ea:
+  hide_if_away: false
+  icon:
+  mac: 24:F0:94:94:BA:EA
+  name: 24 f0 94 94 ba ea
+  picture:
+  track: true
+
+qca4002:
+  hide_if_away: false
+  icon:
+  mac: 00:0E:A3:7B:1D:49
+  name: QCA4002
+  picture:
+  track: true
+
+rmproplus_58_74_50:
+  hide_if_away: false
+  icon:
+  mac: 34:EA:34:58:74:50
+  name: RMPROPLUS-58-74-50
+  picture:
+  track: true
+
+zhimi_airpurifier_m1_miio61070131:
+  hide_if_away: false
+  icon:
+  mac: 34:CE:00:A0:A3:B1
+  name: zhimi-airpurifier-m1 miio61070131
+  picture:
+  track: true
+
+zimi_powerstrip_v2_miio46347541:
+  hide_if_away: false
+  icon:
+  mac: F0:B4:29:BB:F9:00
+  name: zimi-powerstrip-v2 miio46347541
+  picture:
+  track: true
+
+lumi_gateway_v3_miio57530600:
+  hide_if_away: false
+  icon:
+  mac: 34:CE:00:8B:E5:35
+  name: lumi-gateway-v3 miio57530600
+  picture:
+  track: true
+
+tmall_genie:
+  hide_if_away: false
+  icon:
+  mac: 18:BC:5A:1B:45:15
+  name: Tmall-Genie
+  picture:
+  track: true
+
+miaisoundbox:
+  hide_if_away: false
+  icon:
+  mac: 00:9E:C8:DA:1B:3B
+  name: MiAiSoundbox
+  picture:
+  track: true
+
+home_pc1600x:
+  hide_if_away: false
+  icon:
+  mac: 00:D8:61:31:10:81
+  name: Home-PC1600X
+  picture:
+  track: true
+
+00_0c_29_81_eb_bb:
+  hide_if_away: false
+  icon:
+  mac: 00:0C:29:81:EB:BB
+  name: 00 0c 29 81 eb bb
+  picture:
+  track: true
+
+4c_ed_fb_45_91_5d:
+  hide_if_away: false
+  icon:
+  mac: 4C:ED:FB:45:91:5D
+  name: 4c ed fb 45 91 5d
+  picture:
+  track: true
+
+2c_30_33_fc_6f_29:
+  hide_if_away: false
+  icon:
+  mac: 2C:30:33:FC:6F:29
+  name: 2c 30 33 fc 6f 29
+  picture:
+  track: true
+
+sonoff3:
+  hide_if_away: false
+  icon:
+  mac: 68:C6:3A:80:89:92
+  name: sonoff3
+  picture:
+  track: true
+
+b0_41_1d_3e_4d_52:
+  hide_if_away: false
+  icon:
+  mac: B0:41:1D:3E:4D:52
+  name: b0 41 1d 3e 4d 52
+  picture:
+  track: true
+
+ipadmini:
+  hide_if_away: false
+  icon:
+  mac: E4:8B:7F:BA:1D:5E
+  name: iPadmini
+  picture:
+  track: true
+
+ipad_mini3:
+  hide_if_away: false
+  icon:
+  mac: 2C:1F:23:9A:E9:4E
+  name: ipad-mini3
+  picture:
+  track: true
+
+52e801a1:
+  hide_if_away: false
+  icon:
+  mac:
+  name: 52e801a1
+  picture:
+  track: true
+
+iphone:
+  hide_if_away: false
+  icon:
+  mac: 6C:AB:31:96:46:86
+  name: iPhone
+  picture:
+  track: true
+
+mix2_xiaomishouji:
+  hide_if_away: false
+  icon:
+  mac: 20:47:DA:C6:68:F0
+  name: MIX2-xiaomishouji
+  picture:
+  track: true
+
+esp_08b48c:
+  hide_if_away: false
+  icon:
+  mac: 2C:3A:E8:08:B4:8C
+  name: ESP 08B48C
+  picture:
+  track: true
+
+00_ec_0a_80_95_4e:
+  hide_if_away: false
+  icon:
+  mac: 00:EC:0A:80:95:4E
+  name: 00 ec 0a 80 95 4e
+  picture:
+  track: true
+
+34_ce_00_e8_38_6b:
+  hide_if_away: false
+  icon:
+  mac: 34:CE:00:E8:38:6B
+  name: 34 ce 00 e8 38 6b
+  picture:
+  track: true
+
+home_pc6600k:
+  hide_if_away: false
+  icon:
+  mac: 4C:CC:6A:BC:AB:CE
+  name: Home-PC6600K
+  picture:
+  track: true
+
+bc_83_85_1a_f4_e2:
+  hide_if_away: false
+  icon:
+  mac: BC:83:85:1A:F4:E2
+  name: bc 83 85 1a f4 e2
+  picture:
+  track: true
+
+00_e0_4c_2c_c8_93:
+  hide_if_away: false
+  icon:
+  mac: 00:E0:4C:2C:C8:93
+  name: 00 e0 4c 2c c8 93
+  picture:
+  track: true
+
+90_18_7c_8b_f4_95:
+  hide_if_away: false
+  icon:
+  mac: 90:18:7C:8B:F4:95
+  name: 90 18 7c 8b f4 95
+  picture:
+  track: true
+
+78_31_c1_c2_b8_16:
+  hide_if_away: false
+  icon:
+  mac: 78:31:C1:C2:B8:16
+  name: 78 31 c1 c2 b8 16
+  picture:
+  track: true
+
+houpengdeiphone:
+  hide_if_away: false
+  icon:
+  mac: 6C:4D:73:17:1C:D9
+  name: houpengdeiPhone
+  picture:
+  track: true
+
+lidiandplewatch:
+  hide_if_away: false
+  icon:
+  mac: 34:7C:25:DE:94:C4
+  name: lidiandpleWatch
+  picture:
+  track: true
+
+ipad:
+  hide_if_away: false
+  icon:
+  mac: 3C:AB:8E:4B:54:42
+  name: iPad
+  picture:
+  track: true
+
+38_f9_d3_38_cf_de:
+  hide_if_away: false
+  icon:
+  mac: 38:F9:D3:38:CF:DE
+  name: 38 f9 d3 38 cf de
+  picture:
+  track: true
+
+huawei_p20_pro_b1e656351e:
+  hide_if_away: false
+  icon:
+  mac: DC:72:9B:B2:3A:F3
+  name: HUAWEI P20 Pro-b1e656351e
+  picture:
+  track: true
+
+ec_01_ee_06_3a_39:
+  hide_if_away: false
+  icon:
+  mac: EC:01:EE:06:3A:39
+  name: ec 01 ee 06 3a 39
+  picture:
+  track: true
+
+cc_08_8d_da_e0_8e:
+  hide_if_away: false
+  icon:
+  mac: CC:08:8D:DA:E0:8E
+  name: cc 08 8d da e0 8e
+  picture:
+  track: true
+
+bc_60_a7_4e_d4_4f:
+  hide_if_away: false
+  icon:
+  mac: BC:60:A7:4E:D4:4F
+  name: bc 60 a7 4e d4 4f
+  picture:
+  track: true
+
+2c_57_31_4c_97_26:
+  hide_if_away: false
+  icon:
+  mac: 2C:57:31:4C:97:26
+  name: 2c 57 31 4c 97 26
+  picture:
+  track: true
+
+iphone_5:
+  hide_if_away: false
+  icon:
+  mac: 68:DB:CA:1C:DC:AF
+  name: iPhone-5
+  picture:
+  track: true
+
+dafang:
+  hide_if_away: false
+  icon:
+  mac: 78:11:DC:76:BC:B5
+  name: DAFANG
+  picture:
+  track: true
+
+34_ce_00_b4_35_e1:
+  hide_if_away: false
+  icon:
+  mac: 34:CE:00:B4:35:E1
+  name: 34 ce 00 b4 35 e1
+  picture:
+  track: true
+
+b0_6e_bf_be_7c_3c:
+  hide_if_away: false
+  icon:
+  mac: B0:6E:BF:BE:7C:3C
+  name: b0 6e bf be 7c 3c
+  picture:
+  track: true
+
+sonoff2:
+  hide_if_away: false
+  icon:
+  mac: 68:C6:3A:A3:5B:B6
+  name: sonoff2
+  picture:
+  track: true

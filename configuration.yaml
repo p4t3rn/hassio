@@ -1,0 +1,342 @@
+homeassistant:
+  # 系统名称，金窝银窝随便取
+  name: 家
+  # 经纬度设置
+  latitude: 39.9357587057
+  longitude: 119.5364117453
+  # 海拔
+  elevation: 5
+  # 度量单位，这里选择“米”
+  unit_system: metric
+  # 时区
+  time_zone: Asia/Shanghai
+  # Customization file
+  customize: !include customize.yaml
+
+#darksky天气
+# - platform: darksky
+#   api_key: 591516bbb66088766a1ec2a88ad3760e
+
+# Show links to resources in log and frontend
+introduction:
+# 网络相关配置 https://www.home-assistant.io/components/http/
+http:
+  api_password: shensiyu
+
+recorder:
+  purge_interval: 2
+  purge_keep_days: 5
+  db_url: mysql://hass:shensiyu@addon_core_mariadb/homeassistant?charset=utf8
+# Enables the frontend
+frontend:
+
+# Enables configuration UI
+config:
+
+# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+# http:
+#   base_url: example.duckdns.org:8123
+
+# Checks for available updates
+# Note: This component will send some information about your system to
+# the developers to assist with development of Home Assistant.
+# For more information, please see:
+# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
+updater:
+  # Optional, allows Home Assistant developers to focus on popular components.
+  # include_used_components: true
+
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time
+history:
+
+# View all events in a logbook
+logbook:
+#侧边栏
+panel_iframe:
+  homepanel:
+    title: 'HomePanel面板'
+    url: 'http://10.10.10.20:8234'
+    icon: 'mdi:monitor'
+
+  tileboard:
+    title: 'Tileboard面板'
+    url: 'http://10.10.10.20:8123/local/tileboard/index.html'
+    icon: 'mdi:monitor'
+  # router:
+  #   title: '路由器'
+  #   url: 'http://10.10.10.1:80'
+  #   icon: mdi:router-wireless
+  ide:
+    title: '编辑器'
+    url: 'http://10.10.10.20:1337'
+    icon: mdi:code-not-equal-variant
+  page:
+    title: '论坛'
+    url: 'https://bbs.hassbian.com'
+    icon: mdi:file-find
+  nodered:
+    title: 'Node-Red'
+    url: 'http://10.10.10.20:1880'
+    icon: mdi:nodejs
+    
+# Enables a map showing the location of tracked devices
+map:
+shopping_list:
+ios:
+homekit:
+system_health:
+zone:
+  - name: office
+    # 纬度和经度
+    latitude: 39.92941
+    longitude: 119.46530
+    icon: mdi:office-building
+  # This will override the default home zone
+  - name: home
+    latitude: 39.9357587057
+    longitude: 119.5364117453
+    # 半径
+    radius: 100
+    icon: mdi:home
+
+#路由器
+device_tracker:
+  - platform: asuswrt
+    host: 10.10.10.1
+    username: ssy
+    password: shensiyu
+    protocol: telnet
+    port: 23
+    mode: router
+#梅林温度获取
+input_number:
+  merlin_temp:
+    min: 0.0
+    max: 150.0
+# Track the sun
+sun:
+
+camera:
+  - platform: generic
+    name: DaFang
+    username: root
+    password: 594341
+    authentication: basic
+    still_image_url: https://10.10.10.153/cgi-bin/currentpic.cgi
+    verify_ssl: false
+    stream_source: rtsp://10.10.10.153:8554/unicast
+# Sensors
+sensor:
+  # Weather prediction
+  - platform: uptime
+    name: "Homeassistant在线时间"
+    unit_of_measurement: hours
+  # - platform: moon
+  #pc
+  - platform: openhardwaremonitor
+    host: 10.10.10.104
+    port: 8880
+  #天气
+  - platform: HeWeather
+    city: qinhuangdao
+    aqi_city: qinhuangdao
+    appkey: 396f8d0d9582401daf1bec7c06d46fca
+    options:
+      - fl
+      - tmp
+      - cond_txt
+      - wind_spd
+      - hum
+      - pcpn
+      - pres
+      - vis
+      - wind_sc
+      - aqi
+      - main
+      - qlty
+      - pm10
+      - pm25
+      - comf
+      - cw
+      - drsg
+      - flu
+      - sport
+      - trav
+      - uv
+      - wind_dir
+      - tmp_max
+      - tmp_min
+      - pop
+
+  - platform: baidu_travel_time_v3
+    name: traffic home to office
+    origin: zone.home
+    destination: zone.office
+    tactics: 5
+    api_key: !secret baidu_api_key
+
+  - platform: baidu_travel_time_v3
+    name: traffic office to home
+    origin: zone.office
+    destination: zone.home
+    tactics: 5
+    api_key: !secret baidu_api_key
+
+  # - platform: baidu_travel_time_v3
+  #   name:  qhxdj_traffic
+  #   origin: zone.home
+  #   destination: zone.office
+  #   tactics: 5
+  #   attributes: 2
+  #   api_key: !secret baidu_api_key
+
+  # - platform: baidu_travel_time_v3
+  #   name:  lhd_traffic
+  #   origin: zone.home
+  #   destination: zone.office
+  #   tactics: 5
+  #   attributes: 7
+  #   api_key: !secret baidu_api_key
+  - platform: template
+    sensors:
+      merlin_temp_cpu:
+        unit_of_measurement: °C
+        value_template: "{{ states.input_number.merlin_temp.attributes.temp_cpu }}"
+      merlin_temp_24g:
+        unit_of_measurement: °C
+        value_template: "{{ states.input_number.merlin_temp.attributes.temp_24g }}"
+      merlin_temp_5g:
+        unit_of_measurement: °C
+        value_template: "{{ states.input_number.merlin_temp.attributes.temp_5g }}"
+# Text to speech
+tts:
+  - platform: baidu
+    language: zh
+    api_key: zcxuhnofGhneTmDHFuGQvq2g
+    secret_key: 3ZrkumXBDFbtxFW4dhViFRGtuvzlgT8p
+    speed: 5
+    pitch: 5
+    volume: 9
+    person: 0
+
+# Cloud
+cloud:
+
+# 小米平台
+xiaomi_aqara:
+  discovery_retry: 10
+  gateways:
+    - mac: 34CE008BE535
+      key: C83E3278E5A44F44
+      host: 10.10.10.150
+#小米电视
+media_player:
+  - platform: xiaomi_tv
+    host: 10.10.10.125
+    name: TV
+  - platform: mpd
+    host: 10.10.10.20
+#小米空气净化器2
+fan:
+  - platform: xiaomi_miio
+    name: Xiaomi Air Purifier 2
+    host: 10.10.10.17
+    token: 994d3c2e281dd2dee633488c9513c2c1
+#小米扫地机器人
+vacuum:
+  - platform: xiaomi_miio
+    name: robot #昵称
+    host: 10.10.10.193 #ip
+    token: 6244417142575a7933305a345a573057
+#mqtt
+mqtt:
+  broker: 10.10.10.20 #你的树莓派在局域网的地址
+  port: 1883
+  client_id: home-assistant-1
+  keepalive: 60
+  username: ssy
+  password: shensiyu
+  discovery: true
+
+#mqtt sonoff开关
+switch:
+  - platform: mqtt
+    name: "LED Test"
+    state_topic: "stat/sf1/POWER"
+    command_topic: "cmnd/sf1/POWER"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+    retain: true
+  - platform: mqtt #2
+    name: "LED hallway"
+    state_topic: "stat/zl_light/POWER"
+    command_topic: "cmnd/zl_light/POWER"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+    retain: true
+    #开关机
+  - platform: wake_on_lan
+    mac_address: "00:D8:61:31:10:81"
+    name: "客厅主机"
+    host: "10.10.10.104"
+#str视频摄像头
+
+  #博联
+  - platform: broadlink
+    host: 10.10.10.103 #这个是你的Broadlinkrmpro的ip地址，通过fing查看即可
+    mac: "34:ea:34:58:74:50" #这个是你的Broadlinkrmpro的mac地址，通过fing查看即可
+    timeout: 15
+    switches:
+      sw_tv: #客厅电视
+        command_on: "JgCEAxQuFRIULxMTFS4ULxQAAWIjEhUSEy8VLhUSFC4VEhQvFBIVLhUuFAABYiITFBMULhUuFRIULhUSFS4UEhUuFC8UAAFiIxIUExQuFS4UExQuFRIVLhQSFC8ULxUAAWEjEhQTFC4ULxUSFC8TExQvFBIULxUuFQABYiISFBMULhQvFRIULxQSFS4UEhQvFS4UAAFiIhMUExQuFS4VEhQvExMULxQSFS4ULxUAAWIiEhUSFC4VLhQTFC8UEhQvFBIVLhQvFAABYyETFRIULhUuFBMULxMTFS4UEhQvFC8UAAFjIhIUExQuFC8UExQvFBIULxQSFS4VLhQAAWIjEhQTFC4VLhUSFC4VEhUuFBIULxUuFAABYiMSFBMULhUuFRIULxQSFC8UEhQvFC8UAAFiIhMUExQuFC8UExQvFBIULxQSFS4VLhQAAWIjEhQTFC4ULxQTFC4UExQvFBIVLhQvFAABYiMSFBMULhUuFBMULhUSFS4UEhQvFS4UAAFiIxIVEhQuFC8UExMvFBMULxMTFC8ULxQAAWIiExQTFC4ULxUSEy8VEhQvFBIULxQvFAABYiMSFBMULhUuFRIULhUSFC8TExQvFS4UAAFiIhMVEhMvFC8VEhMvFRIULxMTFS4ULxMAAWMiExQSFC8VLhURFC8VEhQuFRIULxQvEwABYyMSFBIVLhQvFBIULxQTFC4VEhUuFC8UAAFiIhMUEhQvFS4UEhUuFBMTLxQTFS4ULhQAAWMiExQSFC0XLhQSFS4VEhMvFRIULxMvFQABYiITExMULxQvFBIULxQTFC4VEhQtFi4VAAFiIhMTExUuFS4UEhUuFREULxUSFC8ULhQAAWMiExQSFC8ULxMTFS4VERQvFRIULhUuFQABYiISFBMULxQuFRIULxQSFS4VEhQuFC8UAAFjIhIUExUuFC4UExQvFBIULxUSFC4VLhUAAWIiEhUSFS4ULhQTFC8UEhQvFRIULhUuFAABYyISFBMVLhQuFBMVLhQSFC8UExMvFS4UAAFjIRMUExUuEy8VEhUuFBIULxUSEy8VLhUAAWIhExUSFC8TLxQTFC8UEhQvFRIULhUuFAABYyETFBMULxMvFBMULxMTFS4UEhQvFS0WAAFiIRMVEhQuFS4UExQvExMULxQSFC8VLhQAAWIjEhUSEy8VLhQTFC4VEhUuFBIVLhQvFAANBQAAAAA=" #这个先空着，一会儿通过学习来得到遥控码
+        command_off: "JgCEAxQuFRIULxMTFS4ULxQAAWIjEhUSEy8VLhUSFC4VEhQvFBIVLhUuFAABYiITFBMULhUuFRIULhUSFS4UEhUuFC8UAAFiIxIUExQuFS4UExQuFRIVLhQSFC8ULxUAAWEjEhQTFC4ULxUSFC8TExQvFBIULxUuFQABYiISFBMULhQvFRIULxQSFS4UEhQvFS4UAAFiIhMUExQuFS4VEhQvExMULxQSFS4ULxUAAWIiEhUSFC4VLhQTFC8UEhQvFBIVLhQvFAABYyETFRIULhUuFBMULxMTFS4UEhQvFC8UAAFjIhIUExQuFC8UExQvFBIULxQSFS4VLhQAAWIjEhQTFC4VLhUSFC4VEhUuFBIULxUuFAABYiMSFBMULhUuFRIULxQSFC8UEhQvFC8UAAFiIhMUExQuFC8UExQvFBIULxQSFS4VLhQAAWIjEhQTFC4ULxQTFC4UExQvFBIVLhQvFAABYiMSFBMULhUuFBMULhUSFS4UEhQvFS4UAAFiIxIVEhQuFC8UExMvFBMULxMTFC8ULxQAAWIiExQTFC4ULxUSEy8VEhQvFBIULxQvFAABYiMSFBMULhUuFRIULhUSFC8TExQvFS4UAAFiIhMVEhMvFC8VEhMvFRIULxMTFS4ULxMAAWMiExQSFC8VLhURFC8VEhQuFRIULxQvEwABYyMSFBIVLhQvFBIULxQTFC4VEhUuFC8UAAFiIhMUEhQvFS4UEhUuFBMTLxQTFS4ULhQAAWMiExQSFC0XLhQSFS4VEhMvFRIULxMvFQABYiITExMULxQvFBIULxQTFC4VEhQtFi4VAAFiIhMTExUuFS4UEhUuFREULxUSFC8ULhQAAWMiExQSFC8ULxMTFS4VERQvFRIULhUuFQABYiISFBMULxQuFRIULxQSFS4VEhQuFC8UAAFjIhIUExUuFC4UExQvFBIULxUSFC4VLhUAAWIiEhUSFS4ULhQTFC8UEhQvFRIULhUuFAABYyISFBMVLhQuFBMVLhQSFC8UExMvFS4UAAFjIRMUExUuEy8VEhUuFBIULxUSEy8VLhUAAWIhExUSFC8TLxQTFC8UEhQvFRIULhUuFAABYyETFBMULxMvFBMULxMTFS4UEhQvFS0WAAFiIRMVEhQuFS4UExQvExMULxQSFC8VLhQAAWIjEhUSEy8VLhQTFC4VEhUuFBIVLhQvFAANBQAAAAA=" #这个也一样，先空着，一会儿通过学习来得到遥控码
+      kt_light1: #客厅灯
+        command_on: "hwB6AAcYCBcXCBcIBxgHGBcIFwgXCBgHCBcIFxcIFwgXCBcIFwgXCAgXCBcIFwgXCBcIFwjwCBcIFxcIFwgIFwgYFggYBxgHGAcIFwgXGAcYCBcHGAgXBxgIBxgHGAgXBxcIGAgXB/EIFwcYFwgXCAcYBxgXCBcIFwgXAAXcAAAAAAAAAAAAAAAAAAA="
+        command_off: "hwB6AAcYCBcXCBcIBxgHGBcIFwgXCBgHCBcIFxcIFwgXCBcIFwgXCAgXCBcIFwgXCBcIFwjwCBcIFxcIFwgIFwgYFggYBxgHGAcIFwgXGAcYCBcHGAgXBxgIBxgHGAgXBxcIGAgXB/EIFwcYFwgXCAcYBxgXCBcIFwgXAAXcAAAAAAAAAAAAAAAAAAA="
+      kt_light2: #客厅灯
+        command_on: "iACYAAgXCBcXCBcICBcIFxcIGAcXCBgHCBcIFxcIGAcXCBgHCBcIFxcIFwgIFwgXCBcIFwjxBxcIFxgHGAcIFwgXGAcYBxgHGAgHGAcXGAcYBxgHGAgHGAgWGAcYCAcYBxgHGAgXCO8JFwcYFwgXCAgXCBcXCBcIFwgXCAgXCBcXCBcIFwgXCAgXCBcXCBcICBcIFwgXCBcIAAXc"
+        command_off: "iACYAAgXCBcXCBcICBcIFxcIGAcXCBgHCBcIFxcIGAcXCBgHCBcIFxcIFwgIFwgXCBcIFwjxBxcIFxgHGAcIFwgXGAcYBxgHGAgHGAcXGAcYBxgHGAgHGAgWGAcYCAcYBxgHGAgXCO8JFwcYFwgXCAgXCBcXCBcIFwgXCAgXCBcXCBcIFwgXCAgXCBcXCBcICBcIFwgXCBcIAAXc"
+      kt_light3: #客厅灯
+        command_on: "iADaAAkXCBcXBxgHCBgHFxgHGAcYCBcHCRcHGBcIFwcYCBcICBcIFwcXCBcYCBcICBcIFwjwCBcIFhgIFwgHGAgXFwgXCBcIFwgIFwgXFwgXCBcIFwgHGAcYCBcIFxcIGAYJFwgXCPAIFgkXFwgXCAgXCBcXCBcIFwgXCAgXCBcXCBgHFwgXCAgXCBcIFwgXFwgXCAgXCBcI8AgXCBcXCBcICBcIFxcIFwgXCBgHCBcIFxgHGAcXCBgHCBcIFwgYBxcYBxcICBcIFwjwCBcIFxgHFwgIFwgXFwgJAAXcAAAAAAAAAAAAAAAAAAA="
+        command_off: "iADaAAkXCBcXBxgHCBgHFxgHGAcYCBcHCRcHGBcIFwcYCBcICBcIFwcXCBcYCBcICBcIFwjwCBcIFhgIFwgHGAgXFwgXCBcIFwgIFwgXFwgXCBcIFwgHGAcYCBcIFxcIGAYJFwgXCPAIFgkXFwgXCAgXCBcXCBcIFwgXCAgXCBcXCBgHFwgXCAgXCBcIFwgXFwgXCAgXCBcI8AgXCBcXCBcICBcIFxcIFwgXCBgHCBcIFxgHGAcXCBgHCBcIFwgYBxcYBxcICBcIFwjwCBcIFxgHFwgIFwgXFwgJAAXcAAAAAAAAAAAAAAAAAAA="
+      kt_light: #客厅灯
+        command_on: "iADNAAUXCCMPAAHwCBcIFxgHDQUECggXCBcYBxcIFwgXCAgXCBcXCBcIFwgXCAgWCRcIFwgWCRcKBxgHGAoVBwkAAoMIFwgXFwgXCAgXCBcXCBcIFwgYBgkWCRcXCBcIFwgXCAgXCBcHFwkXFwcYCBcHGAcJ7wgXCBcYBxcICBcIF9MIFwgXGAcYBwgXCBcYBxgHGAcYBwgXCBcXCBgHDwABsAgXCBcYBxcICBcIFxgHFwgXCBcICBcIFxcIGAcXCBcICBcIFwgXBxgYBwQABdwAAAAAAAAAAAAAAA=="
+        command_off: "iAcyAAkXCBgYCBgICBgIGBgIGAgYCBgICBgJGBgIGAgYCRgIGAgYCBgIGAgJGAgYCBgJGAjxAAAAAAAA"
+      #   kt_light_sleep:
+      #     command_on: 'iAYyAAgYCRgYCRgICfEIGAgYGAgYCAgZCBgYCRgIGAgYCQgYCBgYCBkIGAgYCAgYCRgJGAkYAAAAAAAA'
+      #     command_off: 'iAYyAAgYCRgYCRgICfEIGAgYGAgYCAgZCBgYCRgIGAgYCQgYCBgYCBkIGAgYCAgYCRgJGAkYAAAAAAAA'
+      kt_kt: #客厅空调
+        command_on: "JgDmAGovEiISIxELEQkSChUgEgcUCRMkESMSCBQjEAoTCxEiEiISCxEiEyMQCRQLECQQCRQLECQQCxEJFAsQCxEKEgsQDBAIFAoRDBAIFAsQDBAMEQYUCBYHEyQQCxILEQgTCBMMESQQIhILEQkUChAkEQgUCRIjEwgSIxILEQoRChIMEQsQCBMkEQwQIxEjEiISChMKEQoSCRIKEgsQChILEQgUDBAIFQgSCRQIEwwPDBALEQsRIxEMEAgUCRIkEQoSChEMESIRCxIjECQRCxELEAoTCxEiEQsSCxEiESMSChIKESQSAA0FAAA="
+        command_off: "JgDmAGkvEiMSIxELEAwRBxMjEwwPDQ8kESMRCxAkEgsQChIiEiMSCBUhESQRDQ8IEyQSCBMMECQQDBALEQsRCBMJEgkTChMIEwoRCRMMEAgTCxEJFAoRCxAMEAgVDA4MEQsQCBULECMSIhEKEgsRDBAjEgsQDBAjEgoRIxEKEwsQCxELEQwQCBMjEggTIxEkESMRCxMLDwsRCxELEAwPCxEMEQsQDA8IFAwQCxELEQsQChIHEg4RIhMIEwkSDBEiEQkTCxEKEiMRBxUjEyISChALEQwRDA8jEQsRJBIHFCISCRIMESIRAA0FAAA="
+      cf_light: #厨房灯
+        command_on: "sgAsAQfWBxQIFAcVFQcVBwcUCBQVBxUHFQcHFAcVBxUVBwcVFAcVBwcVFQcHFAgUFQcHFRUHB9YIFAcVBxUVBhYGBxUHFRUHFQcVBgcVBxUHFRUGCBUUBxUHBxUVBwcUCBQVBwcVFQcH1wYVBxUHFRUGFgYIFAcVFQcVBxUGCBQHFQcVFQcHFRUGFQcHFRUHBxUHFRQHBxUVBwfXBxQIFAcVFQcVBwcUCBQVBxUHFQcHFQcUBxUVBwcVFQcVBggVFAcHFQcVFQcHFBYGCNYHFQcVBxUUCBQHBxUHFRUHFQcVBwcUBxUHFRUGCBUVBhUHBxUVBwcUCBQWBgcVFQcH1wcVBxQIFBUHFQcHFQcUFQgVBhUHBxUHFQcVFAcHFRUHFQcHFRUGCBQIFBUHBwAF3AAAAAAAAAAAAAAAAA=="
+        command_off: "sggyAAcWFQgHFhYIFggIFhUIBxUIFRUIFggIFgjYBxYIFQcWFQgWCAgWBxYVCBUIFQgHFgcWAAAAAAAA"
+      ct_light: #餐厅主灯
+        command_on: "sgAQAQfXBxUHFAcVFQcVBwcUBxUVBxUHFQcHFAcVBxUVBwcVFAcVBwcVFQcHFQYVBxUVBxUHB9YIFAcVBxUUCBQHBxUHFRUHFQYWBgcVBxUHFRQHBxUVBxUHBxUVBwYVBxUHFRUHFQYI1gcVBxUHFRQHFQcHFQcVFQcVBxQIBhUHFQcVFQYHFRUHFQcHFRUHBxQHFQcVFQcVBwfXBxQHFQcVFQcVBwYVBxUVBxUHFQcHFAcVBxUVBwcVFAgUCAYVFQcHFQcVBxQVBxUHB9cHFQcUCBQVBxUHBxUHFRQHFQcVBwcVBxUHFBUHBxUVBxUHBxUUCAcUBxUHFRUGFgYH2AYVBxUHFRUHFQcGFQcVFQcVAAXcAAAAAAAAAAA="
+        command_off: "sgYyAAgWFgcIFQgVCNcIFQgVBxYWCBUHCBYIFRYHFgcWCAcWCBUIFRYHCBUVCBUHCBUVCAgVAAAAAAAA"
+      ctld_light: #餐厅落地灯
+        command_on: "sgYyAAgVCBYVCBUIFggIFQgVCBUVCAgVFggVBwgVFQgIFggVCBUIFRUIB9cIFQgWBxUVCBUIAAAAAAAA"
+        command_off: "sgYyAAcVFggIFgcWBxUVCAcWCNcIFQcWBxYVCBUICBUHFRUIFggWCAgWBxYHFhUIBxYVCBUIAAAAAAAA"
+      dw_light: #大卫生间灯
+        command_on: "sgYyAAgVFgcWBxYHCBUIFQkVFgcIFRYHFgcIFRYHCRUIFRYHFgcWBwjXCBUIFQgVFgcWBwgVAAAAAAAA"
+        command_off: "sgcyABYHCBUIFRYHFgcWBwgVCBUIFRYHCBUWBxYHCBUWBwgVFgcIFQgVCBUI1wgVCBUIFRYHAAAAAAAA"
+      xw_light: #小卫生间灯
+        command_on: "sgYyABYHCNcIFQgVCBUWBxYHCBUIFRYHFgcWBwgVCBUIFRYHCBUWBxYHCBUWBwgVFgcIFQgVAAAAAAAA"
+        command_off: "sgcyABYHFgcIFQgVFwcWBxYHCBUIFQgVFgcJFRYHFgcIFRYHCBUWBwgVFgcIFQjYCBUIFQgVAAAAAAAA"
+      yt_light: #阳台灯
+        command_on: "sgC6AAQJFAgUCAYxBxUVBwYWFAgUBwcVFQcHFhQHBhYUCBQIBtgGFgYWBhYUCBQIBhYGFRUHFAgUCAYWBhUHFRUHBxYUBxUHBxUUCAYWFAgGFhQIFAgG2AYVBxUHFRUHFQcGFgYWFAgUCBQHBxUHFQcVFAgHFRQIFAgGFRUHBxUVBwcVFQcVBwfYBhUHFQcVFQcUCAYWBhUVBxUHFQcHFQcVBxUUCAYVFQcVBwcVFQcHFRUHBxUVBxUHBgAF3AAAAAAAAAAAAAAAAAAA"
+        command_off: "sgC6AAQJFAgUCAYxBxUVBwYWFAgUBwcVFQcHFhQHBhYUCBQIBtgGFgYWBhYUCBQIBhYGFRUHFAgUCAYWBhUHFRUHBxYUBxUHBxUUCAYWFAgGFhQIFAgG2AYVBxUHFRUHFQcGFgYWFAgUCBQHBxUHFQcVFAgHFRQIFAgGFRUHBxUVBwcVFQcVBwfYBhUHFQcVFQcUCAYWBhUVBxUHFQcHFQcVBxUUCAYVFQcVBwcVFQcHFRUHBxUVBxUHBgAF3AAAAAAAAAAAAAAAAAAA"
+      sf_light: #书房灯
+        command_on: "sj8yAAgWFggWCAcWCBUWBxYIFggIFggVCBYWCAgVFggWCAgVFggIFRYIFggIFQgWCNkIFggWAAAAAAAA"
+        command_off: "sj8yAAgWFggWCAcWCBUWBxYIFggIFggVCBYWCAgVFggWCAgVFggIFRYIFggIFQgWCNkIFggWAAAAAAAA"
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml

@@ -1,0 +1,59 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "mqtt",
+                "entry_id": "42d58a2eb96749de9b9466af382a334f",
+                "source": "import",
+                "title": "configuration.yaml",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {},
+                "domain": "ios",
+                "entry_id": "5875a664a520401a9d5d0936a0892eb7",
+                "source": "import",
+                "title": "Home Assistant iOS",
+                "version": 1
+            },
+            {
+                "connection_class": "unknown",
+                "data": {
+                    "webhook_id": "91c8f81f272a38fe445e5556c7de4dc7f0b28e99647e21381e2a14457e620d85"
+                },
+                "domain": "locative",
+                "entry_id": "e8b005133f3d4dcfaf047faccfff0d51",
+                "source": "user",
+                "title": "Locative Webhook",
+                "version": 1
+            },
+            {
+                "connection_class": "unknown",
+                "data": {
+                    "webhook_id": "878b47a50a9741dec571f9c934f7246b63cc908c0f2ed3323f70782faaac0b32"
+                },
+                "domain": "gpslogger",
+                "entry_id": "a8f742e9b63b4e149c0c1d765be78189",
+                "source": "user",
+                "title": "GPSLogger Webhook",
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "udn": "uuid:7310bce4-a5fb-4863-adc0-5f1799b34c77"
+                },
+                "domain": "upnp",
+                "entry_id": "bb5609672b53442ab43638cbfe0620a0",
+                "source": "discovery",
+                "title": "UPnP/IGD",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

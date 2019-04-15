@@ -1,0 +1,275 @@
+{
+    "data": {
+        "config": {
+            "title": "\u5bb6",
+            "views": [
+                {
+                    "badges": [
+                        "binary_sensor.motion_sensor_158d0001db0ae8",
+                        "binary_sensor.switch_158d000183cbff",
+                        "binary_sensor.door_window_sensor_158d00016fdb4c",
+                        "binary_sensor.door_window_sensor_158d000120c802",
+                        "device_tracker.home_pc1600x",
+                        "device_tracker.ipadmini",
+                        "device_tracker.ipad_mini3",
+                        "sensor.traffic_home_to_office",
+                        "sensor.homeassistantzai_xian_shi_jian",
+                        "sensor.traffic_office_to_home",
+                        "sensor.illumination_34ce008be535",
+                        "sensor.humidity_158d00016ffa41",
+                        "sensor.temperature_158d00016ffa41",
+                        "sun.sun"
+                    ],
+                    "cards": [
+                        {
+                            "entities": [
+                                "fan.xiaomi_air_purifier_2"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "\u98ce\u6247",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "switch.cf_light",
+                                "switch.sf_light",
+                                "switch.sw_tv",
+                                "switch.kt_kt",
+                                "switch.kt_light1",
+                                "switch.kt_light",
+                                "switch.ct_light",
+                                "switch.dw_light",
+                                "switch.kt_light2",
+                                "switch.ctld_light",
+                                "switch.xw_light",
+                                "switch.yt_light",
+                                "switch.kt_light3",
+                                "switch.led_test",
+                                "switch.led_hallway",
+                                "switch.plug_158d0001deaab7",
+                                "switch.plug_158d0001db17e9"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "\u5f00\u5173",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "light.gateway_light_34ce008be535"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "\u706f\u5149",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "vacuum.robot"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "\u626b\u5730\u673a",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.heweather_aqi"
+                                },
+                                {
+                                    "entity": "sensor.heweather_comf"
+                                },
+                                {
+                                    "entity": "sensor.heweather_cond_txt"
+                                },
+                                {
+                                    "entity": "sensor.heweather_cw"
+                                },
+                                {
+                                    "entity": "sensor.heweather_drsg"
+                                },
+                                {
+                                    "entity": "sensor.heweather_fl"
+                                },
+                                {
+                                    "entity": "sensor.heweather_flu"
+                                },
+                                {
+                                    "entity": "sensor.heweather_hum"
+                                },
+                                {
+                                    "entity": "sensor.heweather_main"
+                                },
+                                {
+                                    "entity": "sensor.heweather_pm10"
+                                },
+                                {
+                                    "entity": "sensor.heweather_pm25"
+                                },
+                                {
+                                    "entity": "sensor.heweather_pop"
+                                },
+                                {
+                                    "entity": "sensor.heweather_pcpn"
+                                },
+                                {
+                                    "entity": "sensor.heweather_pres"
+                                },
+                                {
+                                    "entity": "sensor.heweather_qlty"
+                                },
+                                {
+                                    "entity": "sensor.heweather_sport"
+                                },
+                                {
+                                    "entity": "sensor.heweather_tmp"
+                                },
+                                {
+                                    "entity": "sensor.heweather_tmp_max"
+                                },
+                                {
+                                    "entity": "sensor.heweather_tmp_min"
+                                },
+                                {
+                                    "entity": "sensor.heweather_trav"
+                                },
+                                {
+                                    "entity": "sensor.heweather_uv"
+                                },
+                                {
+                                    "entity": "sensor.heweather_vis"
+                                },
+                                {
+                                    "entity": "sensor.heweather_wind_dir"
+                                },
+                                {
+                                    "entity": "sensor.heweather_wind_sc"
+                                },
+                                {
+                                    "entity": "sensor.heweather_wind_spd"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "theme": "Backend-selected",
+                            "title": "\u5929\u6c14\u6307\u6570",
+                            "type": "entities"
+                        }
+                    ],
+                    "path": "default_view",
+                    "title": "Home"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.motion_sensor_158d0001db0ae8"
+                                },
+                                {
+                                    "entity": "sensor.traffic_home_to_office"
+                                },
+                                {
+                                    "entity": "sensor.heweather_cond_txt"
+                                },
+                                {
+                                    "entity": "sensor.heweather_tmp"
+                                },
+                                {
+                                    "entity": "sensor.homeassistantzai_xian_shi_jian"
+                                }
+                            ],
+                            "type": "glance"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.ke_ting_zhu_ji"
+                                }
+                            ],
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.kt_kt"
+                                },
+                                {
+                                    "entity": "switch.kt_light"
+                                },
+                                {
+                                    "entity": "switch.sw_tv"
+                                },
+                                {
+                                    "entity": "switch.kt_light1"
+                                },
+                                {
+                                    "entity": "switch.kt_light2"
+                                },
+                                {
+                                    "entity": "switch.plug_158d0001deaab7"
+                                }
+                            ],
+                            "type": "entities"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "entity": "camera.dafang",
+                                    "name": "\u5ba2\u5385",
+                                    "show_info": false,
+                                    "type": "picture-entity"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "device_tracker.24_f0_94_94_ba_ea"
+                                },
+                                {
+                                    "entity": "zone.home"
+                                },
+                                {
+                                    "entity": "zone.office"
+                                },
+                                {
+                                    "entity": "device_tracker.f4_60_e2_9e_75_0e"
+                                }
+                            ],
+                            "type": "map"
+                        }
+                    ],
+                    "panel": false,
+                    "title": "\u5ba2\u5385"
+                },
+                {
+                    "badges": [],
+                    "cards": [],
+                    "title": "\u9633\u53f0"
+                },
+                {
+                    "badges": [],
+                    "cards": [],
+                    "title": "\u9910\u5385"
+                },
+                {
+                    "badges": [],
+                    "cards": [],
+                    "title": "\u53a8\u623f"
+                },
+                {
+                    "badges": [],
+                    "cards": [],
+                    "title": "\u4e66\u623f"
+                },
+                {
+                    "badges": [],
+                    "cards": [],
+                    "title": "\u5367\u5ba4"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}
